@@ -15,7 +15,7 @@
 
 В папке **Levin_Leonid** находятся три папки:
 
-1️⃣ **create_embeddings** — содержит ноутбуки для получения эмбеддингов с помощью CLIP+BLIP, CLIP+GIT+LLAMA, CLIP+LLAVA. Полученные JSON с эмбеддингами хранятся на Google Диске, ссылка — в `link_to_embeddings`.
+1️⃣ **create_embeddings** — содержит ноутбуки для получения эмбеддингов с помощью CLIP+BLIP, CLIP+GIT+LLAMA, CLIP+LLAVA. Полученные JSON с эмбеддингами хранятся на Google Диске, ссылка — в `link_to_embeddings.txt`.
 
 2️⃣ **create_index** — содержит `make_index_faiss.ipynb`, который принимает эмбеддинги и строит два FAISS-индекса: для изображений и для текстовых описаний. Ссылка на файлы индекса — в `link_to_faiss.txt`.
 

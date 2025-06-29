@@ -23,3 +23,17 @@
 
 Презентация проекта доступна по ссылке: [VK_ArtMatch_Levin_presentation.pdf](https://github.com/LeNcHic/VK_ArtMatch/blob/main/VK_ArtMatch_Levin_presentation.pdf). В интерфейсе GitHub изображения картин могут не отображаться корректно — рекомендуется скачать файл для просмотра.
 
+## Запуск проекта
+
+Для запуска базовой версии **CLIP+BLIP**:
+- Откройте и запустите ноутбук: [find_images_blip.ipynb](https://github.com/LeNcHic/VK_ArtMatch/blob/main/Levin_Leonid/find_images/find_images_blip.ipynb)
+- Скачайте индексы с Google Диска: `text_index.faiss`, `image_index.faiss`
+
+Для версии **CLIP+GIT+LLAMA**:
+- Запустите [find_images_llama.ipynb](https://github.com/LeNcHic/VK_ArtMatch/blob/main/Levin_Leonid/find_images/find_images_llama.ipynb)
+- Скачайте индексы: `text_index_llama.faiss`, `image_index_llama.faiss`
+
+Для версии **CLIP+LLAVA**:
+- Запустите [find_images_llava.ipynb](https://github.com/LeNcHic/VK_ArtMatch/blob/main/Levin_Leonid/find_images/find_images_llava.ipynb)
+- Скачайте индексы: `text_index_llava.faiss`, `image_index_llava.faiss`
+
